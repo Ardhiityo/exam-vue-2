@@ -6,13 +6,14 @@
 export default {
     name: 'price',
     props: {
+        value: Number,
         prefix: {
             type: String,
             default: 'Rp'
         },
         precision: {
             type: Number,
-            default: 2
+            default: 3
         }
     }
 }
